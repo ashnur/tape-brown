@@ -7,5 +7,5 @@ if port is specified, you can run the tests in your browser of choice by loading
 
 if --debug is added, browserify will compile source maps
 
-# Install
+## Install
 `npm install -g mocha-run`

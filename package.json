@@ -3,6 +3,9 @@
   "description": "Run tape tests in browser from cli.",
   "version": "0.0.1",
   "main": "index.js",
+  "bin": {
+    "mocha-run": "bin/tape-brown.js"
+  },
   "dependencies": {
     "tap-finished": "0.0.0",
     "browser-run": "0.0.5",

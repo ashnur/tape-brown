@@ -6,7 +6,6 @@ function next(notok){
         if ( notok ) ok = false
     } else {
         console.error('')
-        //process.exit(Number(notok))
     }
 }
 

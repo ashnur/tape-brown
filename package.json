@@ -1,14 +1,9 @@
 {
   "name": "tape-brown",
   "description": "Run tape tests in browser from cli.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "prepublish": "npm test"
-  },
   "dependencies": {
-    "totemizer": "~0.0.2",
     "tap-finished": "0.0.0",
     "browser-run": "0.0.5",
     "browserify": "~2.13.2",
@@ -17,35 +12,12 @@
     "optimist": "~0.4.0",
     "glob": "~3.2.1"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "expect.js": "*"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/ashnur/tape-brown.git"
   },
   "bugs": {
     "url": "https://github.com/ashnur/tape-brown/issues"
-  },
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "iexplore/6.0",
-      "iexplore/7.0",
-      "iexplore/8.0",
-      "iexplore/9.0",
-      "iexplore/10.0",
-      "chrome/4.0",
-      "chrome/23.0",
-      "firefox/3.0",
-      "firefox/17.0",
-      "opera/10.0",
-      "opera/12.0",
-      "safari/5.0.5",
-      "safari/5.1"
-    ],
-    "harness": "mocha"
   },
   "author": "ashnur",
   "license": "DAFUQ",

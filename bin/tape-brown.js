@@ -5,7 +5,7 @@ function next(notok){
         stack.shift()()
         if ( notok ) ok = false
     } else {
-        console.error('')
+        process.exit(1)
     }
 }
 

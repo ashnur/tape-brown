@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 function next(notok){
+    if ( notok ) ok = false
     if ( stack.length ) {
         stack.shift()()
-        if ( notok ) ok = false
     } else {
         process.exit(Number(!ok))
     }
